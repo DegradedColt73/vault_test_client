@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane fx:id="anchor" prefHeight="600.0" prefWidth="1000.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="homescreen.HomeScreen">
+   <children>
+      <BorderPane id="container" layoutX="24.0" layoutY="20.0" prefHeight="556.0" prefWidth="933.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <right>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onCreateVault" prefHeight="50.0" prefWidth="200.0" styleClass="pickButton" text="Create new" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets right="100.0" />
+               </BorderPane.margin>
+            </Button>
+         </right>
+         <left>
+            <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onOpenVault" prefHeight="50.0" prefWidth="200.0" styleClass="pickButton" text="Open Existining Vault" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="100.0" />
+               </BorderPane.margin>
+            </Button>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

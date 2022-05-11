@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="vault_driver">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../vault_driver/out/artifacts/vault_driver_jar/vault_driver.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

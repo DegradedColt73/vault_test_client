@@ -1,0 +1,22 @@
+#anchor{
+    /*-fx-background-color: linear-gradient(to right top, #f083b1, #13f5f9, #13ecf9);*/
+}
+
+#errorText{
+    -fx-display-caret: none;
+}
+
+.pickButton{
+    -fx-background-color: #3F5EAB;
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+
+.entryManagementButton{
+    -fx-background-color: #3F5EAB;
+    -fx-text-fill: white;
+    -fx-font-size: 40;
+    -fx-font-weight: bolder;
+    -fx-padding: 0 0 10px 0;
+}
